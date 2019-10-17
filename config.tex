@@ -1,0 +1,63 @@
+\newcommand{\iTitlepage}{
+    % english
+    \input{template/titlepage.tex} 
+    \input{template/approval.tex} 
+
+    % español
+    % \input{template/portada.tex} 
+    % \input{template/aprobacion.tex}
+}
+
+\newcommand{\iAbstract}{
+     \input{chapters/abstract.tex} 
+}
+
+\newcommand{\iIndices}{
+     \tableofcontents
+     \listoffigures
+     \listoftables
+}
+
+\newcommand{\iChapters}{
+    \input{chapters/introduction.tex}
+    \input{chapters/lit_rev.tex}
+    \input{chapters/conclusions.tex}
+}
+
+% path to images
+% \graphicspath{ {img/} }
+
+
+% metadata
+\newcommand{\vFDirector}{M.I. Javier González Cantú}
+\newcommand{\vFSecretario}{Dr. Alejandro Villalobos Aragón}
+\newcommand{\vFCoordinador}{Dr. Alejandro Villalobos Aragón}
+
+
+% english metadata
+\newcommand{\vTitle}{Title}
+\newcommand{\vAuthor}{Author }
+\newcommand{\vDegree}{Degree}
+\newcommand{\vDate}{Date}
+\newcommand{\vDissertationDirector}{Supervisor}
+\newcommand{\vCommittee}{\noindent
+    Member 1\\
+    Member 2\\
+    Member 3\\
+    Member 4\\
+    Member 5
+}
+
+% metadatos en español
+\newcommand{\vTitulo}{Título}
+\newcommand{\vAutor}{Autor}
+\newcommand{\vGrado}{Grado}
+\newcommand{\vFecha}{Fecha}
+\newcommand{\vDirectorTesis}{Director}
+\newcommand{\vComite}{\noindent
+    Miembro 1\\
+    Miembro 2\\
+    Miembro 3\\
+    Miembro 4\\
+    Miembro 5
+}
